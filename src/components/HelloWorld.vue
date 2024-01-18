@@ -62,7 +62,8 @@
 
     </div>
 
-    <h1 style="color: green" v-if="answer_a_correct && answer_b_correct && answer_c_correct && answer_d_correct">
+    <h1 style="color: green"
+      v-if="answer_a_correct && answer_b_correct && answer_c_correct && answer_d_correct && answer_e_correct">
       Gratulacje</h1>
 
     <div class="desktop">
