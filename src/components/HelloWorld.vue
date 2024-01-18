@@ -162,8 +162,8 @@ export default {
       this.question['answer_c_correct'] = pairs[2][1];
       this.question['answer_d'] = pairs[3][0];
       this.question['answer_d_correct'] = pairs[3][1];
-      this.question['answer_e'] = pairs[3][0];
-      this.question['answer_e_correct'] = pairs[3][1];
+      this.question['answer_e'] = pairs[4][0];
+      this.question['answer_e_correct'] = pairs[4][1];
     },
     check() {
       this.answer_a_correct = this.answer_a_selected === this.question['answer_a_correct'];
