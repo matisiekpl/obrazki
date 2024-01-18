@@ -5,10 +5,12 @@
         "answer_b": "obliczenia są przerywane, w przypadku, gdy różnica w jasności (kolorze) pomiędzy bieżącym pikselem, a jednym z sąsiadów przekroczy ustalony próg",
         "answer_c": "metoda działa poprawnie tylko, gdy wykorzystuje się stos (a nie np. kolejkę)",
         "answer_d": "w każdym kroku sprawdzane jest sąsiedztwo danego piksela",
-        "answer_a_correct": false,
+        "answer_e": "",
+        "answer_a_correct": true,
         "answer_b_correct": false,
         "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_d_correct": true,
+        "answer_e_correct": false
     },
     {
         "question": "Luminacja Y niesie informację o:",
@@ -16,10 +18,12 @@
         "answer_b": "obecności koloru czerwonego w pikselu",
         "answer_c": "obecności koloru zielonego w pikselu",
         "answer_d": "obecności koloru niebieskiego w pikselu",
-        "answer_a_correct": false,
+        "answer_e": "",
+        "answer_a_correct": true,
         "answer_b_correct": false,
         "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_d_correct": false,
+        "answer_e_correct": false
     },
     {
         "question": "Plamka żółta w oku to:",
@@ -27,10 +31,12 @@
         "answer_b": "miejsce o największym skupieniu czopków",
         "answer_c": "",
         "answer_d": "",
+        "answer_e": "",
         "answer_a_correct": false,
-        "answer_b_correct": false,
+        "answer_b_correct": true,
         "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_d_correct": false,
+        "answer_e_correct": false
     },
     {
         "question": "Do globalnych metod automatycznego wyznaczania progu binaryzacji można zaliczyć:",
@@ -38,10 +44,12 @@
         "answer_b": "metodę Sauvoli",
         "answer_c": "algorytm Otsu",
         "answer_d": "algorytm Yen",
+        "answer_e": "",
         "answer_a_correct": false,
         "answer_b_correct": false,
-        "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_c_correct": true,
+        "answer_d_correct": true,
+        "answer_e_correct": false
     },
     {
         "question": "Zaznacz poprawne stwierdzenia dotyczące filtra NL-means (non-local means):",
@@ -49,10 +57,12 @@
         "answer_b": "do poprawnego działania filtr NL-means wymaga obrazu referencyjnego (na przykład obraz przefiltrowany innym filtrem",
         "answer_c": "niska złożoność obliczeniowa i duża dokładność filtracji",
         "answer_d": "wysoka złożoność obliczeniowa i duża dokładność filtracji",
-        "answer_a_correct": false,
+        "answer_e": "",
+        "answer_a_correct": true,
         "answer_b_correct": false,
         "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_d_correct": true,
+        "answer_e_correct": false
     },
     {
         "question": "Rezultatem indeksacji jest obraz:",
@@ -60,10 +70,12 @@
         "answer_b": "w skali szarości",
         "answer_c": "binarny",
         "answer_d": "kolorowy (YCbCr)",
+        "answer_e": "",
         "answer_a_correct": false,
-        "answer_b_correct": false,
+        "answer_b_correct": true,
         "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_d_correct": false,
+        "answer_e_correct": false
     },
     {
         "question": "W metodzie BBHE (Bi-Histogram Equalization) histogram dzieli się na podstawie:",
@@ -71,10 +83,12 @@
         "answer_b": "liczby pikseli w podobrazach",
         "answer_c": "dominanty jasności w obrazie",
         "answer_d": "średniej jasności w przetwarzanym oknie",
-        "answer_a_correct": false,
+        "answer_e": "",
+        "answer_a_correct": true,
         "answer_b_correct": false,
         "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_d_correct": false,
+        "answer_e_correct": false
     },
     {
         "question": "Filtr kombinowany:",
@@ -82,10 +96,12 @@
         "answer_b": "służy np. do wykrywania krawędzi",
         "answer_c": "to złożenie dwóch lub więcej filtrów prostych (np. Sobel, Prewitt)",
         "answer_d": "",
-        "answer_a_correct": false,
-        "answer_b_correct": false,
+        "answer_e": "",
+        "answer_a_correct": true,
+        "answer_b_correct": true,
         "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_d_correct": false,
+        "answer_e_correct": false
     },
     {
         "question": "Histogram skumulowany to funkcja wyznaczona na podstawie histogramu w następujący sposób: pierwszy element to liczba pikseli o odcieniu 0, a kolejne wartości to liczba pikseli o odcieniu k pomnożona przez numer odcienia:",
@@ -93,10 +109,12 @@
         "answer_b": "Fałsz",
         "answer_c": "",
         "answer_d": "",
+        "answer_e": "",
         "answer_a_correct": false,
-        "answer_b_correct": false,
+        "answer_b_correct": true,
         "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_d_correct": false,
+        "answer_e_correct": false
     },
     {
         "question": "Dla obrazu rzeczywistego (np.\"lena\") wykonujemy przeskalowanie do dwukrotnie większej rozdzielczości. Stosujemy dwie metody: ``najbliższego sąsiada'' oraz interpolację. Która da lepszy rezultat (wprowadza mniejszą liczbę artefaktów)?",
@@ -104,10 +122,12 @@
         "answer_b": "obie dadzą zbliżony wynik",
         "answer_c": "najbliższego sąsiada",
         "answer_d": "",
-        "answer_a_correct": false,
+        "answer_e": "",
+        "answer_a_correct": true,
         "answer_b_correct": false,
         "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_d_correct": false,
+        "answer_e_correct": false
     },
     {
         "question": "Wykonanie operacji DCT na obrazie (fragmencie obrazu) w dwóch etapach (jako dwie jednowymiarowe transformaty po wierszach i kolumnach) skutkuje:",
@@ -115,10 +135,12 @@
         "answer_b": "zmniejszeniem złożoności obliczeniowej",
         "answer_c": "uzyskaniem dokładniejszych wyników",
         "answer_d": "powstaniem znacznych błędów obliczeniowych",
+        "answer_e": "",
         "answer_a_correct": false,
-        "answer_b_correct": false,
+        "answer_b_correct": true,
         "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_d_correct": false,
+        "answer_e_correct": false
     },
     {
         "question": "Czy filtracja dolnoprzepustowa pozwala usunąć zakłócenia typu impulsowego?",
@@ -126,10 +148,12 @@
         "answer_b": "tak, ale tylko znaczne zakłócenia impulsowe",
         "answer_c": "tak",
         "answer_d": "",
-        "answer_a_correct": false,
+        "answer_e": "",
+        "answer_a_correct": true,
         "answer_b_correct": false,
         "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_d_correct": false,
+        "answer_e_correct": false
     },
     {
         "question": "Kiedy jednopunktowe przekształcenie obrazu jest odwracalne:",
@@ -137,10 +161,12 @@
         "answer_b": "tylko jeśli funkcja przekształcająca jest malejąca",
         "answer_c": "zawsze",
         "answer_d": "jeśli funkcja przekształcająca jest ściśle monotoniczna",
+        "answer_e": "nigdy",
         "answer_a_correct": false,
         "answer_b_correct": false,
         "answer_c_correct": false,
-        "answer_d_correct": true
+        "answer_d_correct": true,
+        "answer_e_correct": false
     },
     {
         "question": "W poznanym na zajęciach algorytmie indeksacji:",
@@ -148,10 +174,12 @@
         "answer_b": "po pierwszym przebiegu wszystkie obiekty muszą mieć poprawne etykiety",
         "answer_c": "potencjalne konflikty (wielokrotne etykiety) zapisywane są w strukturze zbiorów rozłącznych (uninon find)",
         "answer_d": "po pierwszym przebiegu piksele należące do jednego obiektu mogą mieć różne etykiety",
+        "answer_e": "",
         "answer_a_correct": false,
         "answer_b_correct": false,
-        "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_c_correct": true,
+        "answer_d_correct": true,
+        "answer_e_correct": false
     },
     {
         "question": "Wybierz zdania prawdziwe na temat adaptacyjnej filtracji medianowej - takiej jak w zadaniu domowym do ćwiczenia \"Przetwarzanie wstępne\":",
@@ -159,10 +187,12 @@
         "answer_b": "adaptacyjność filtra polega na naprzemiennym stosowaniu filtracji medianowej i dolnoprzepustowej",
         "answer_c": "jednym z etapów działania jest określenie wartości min i max w oknie",
         "answer_d": "adaptacyjność filtra polega na zmianie rozmiaru okna filtracji",
+        "answer_e": "",
         "answer_a_correct": false,
         "answer_b_correct": false,
-        "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_c_correct": true,
+        "answer_d_correct": true,
+        "answer_e_correct": false
     },
     {
         "question": "Z wymienionych poniżej, wskaż przestrzenie barw, w których wyróżnia się osobną składową jasności obrazu:",
@@ -170,10 +200,12 @@
         "answer_b": "CMY",
         "answer_c": "CMYK",
         "answer_d": "HSV",
-        "answer_a_correct": false,
-        "answer_b_correct": true,
+        "answer_e": "RGB",
+        "answer_a_correct": true,
+        "answer_b_correct": false,
         "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_d_correct": true,
+        "answer_e_correct": false
     },
     {
         "question": "Opis: \"wysoka czułość, widzenie w nocy, reakcja na intensywność światła\" odpowiada:",
@@ -181,10 +213,12 @@
         "answer_b": "czopkom",
         "answer_c": "",
         "answer_d": "",
-        "answer_a_correct": false,
+        "answer_e": "",
+        "answer_a_correct": true,
         "answer_b_correct": false,
         "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_d_correct": false,
+        "answer_e_correct": false
     },
     {
         "question": "Który z podanych akronimów nie jest oznaczeniem przestrzeni kolorów:",
@@ -192,10 +226,12 @@
         "answer_b": "CMYK",
         "answer_c": "YYU",
         "answer_d": "Lac",
+        "answer_e": "HSV",
         "answer_a_correct": false,
         "answer_b_correct": false,
-        "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_c_correct": true,
+        "answer_d_correct": true,
+        "answer_e_correct": false
     },
     {
         "question": "Które z poniższych operacji morfologicznych mogą zmniejszać pole figury poddanej przekształceniu:",
@@ -203,10 +239,12 @@
         "answer_b": "dylatacja",
         "answer_c": "zamknięcie",
         "answer_d": "ścieranie",
-        "answer_a_correct": false,
+        "answer_e": "",
+        "answer_a_correct": true,
         "answer_b_correct": false,
         "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_d_correct": true,
+        "answer_e_correct": false
     },
     {
         "question": "Zaznacz cechy naturalnego przetwarzania obrazu przewyższające jego sztuczny odpowiednik:",
@@ -214,9 +252,11 @@
         "answer_b": "powtarzalność wyników",
         "answer_c": "szybka analiza złożonych obrazów",
         "answer_d": "szybsze rozpoznawanie prostych obrazów w czasie rzeczywistym",
-        "answer_a_correct": false,
+        "answer_e": "",
+        "answer_a_correct": true,
         "answer_b_correct": false,
-        "answer_c_correct": false,
-        "answer_d_correct": false
+        "answer_c_correct": true,
+        "answer_d_correct": false,
+        "answer_e_correct": false
     }
 ]

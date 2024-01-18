@@ -50,6 +50,16 @@
           <span class="red" v-if="checking && !answer_d_correct">Źle</span></label><br>
       </div>
 
+      <div v-if="question['answer_e'] !== ''">
+        <input type="checkbox" id="answer_e" name="answer_e" v-model="answer_e_selected">
+        <label for="answer_e"><span :class="{ 'blue': question['answer_e_correct'] && checking }"
+            style="margin-right: 12px;">{{
+              question['answer_e']
+            }}</span>
+          <span class="green" v-if="checking && answer_e_correct">Dobrze</span>
+          <span class="red" v-if="checking && !answer_e_correct">Źle</span></label><br>
+      </div>
+
     </div>
 
     <h1 style="color: green" v-if="answer_a_correct && answer_b_correct && answer_c_correct && answer_d_correct">
@@ -93,10 +103,12 @@ export default {
       answer_b_selected: false,
       answer_c_selected: false,
       answer_d_selected: false,
+      answer_e_selected: false,
       answer_a_correct: false,
       answer_b_correct: false,
       answer_c_correct: false,
       answer_d_correct: false,
+      answer_e_correct: false,
       checking: false,
       questions,
       i: 0,
@@ -120,10 +132,12 @@ export default {
       this.answer_b_correct = false;
       this.answer_c_correct = false;
       this.answer_d_correct = false;
+      this.answer_e_correct = false;
       this.answer_a_selected = false;
       this.answer_b_selected = false;
       this.answer_c_selected = false;
       this.answer_d_selected = false;
+      this.answer_e_selected = false;
       this.checking = false;
       if (this.i > this.questions.length - 1) {
         if (this.answered_correctly < 50) {
@@ -137,6 +151,7 @@ export default {
       pairs.push([this.question['answer_b'], this.question['answer_b_correct']]);
       pairs.push([this.question['answer_c'], this.question['answer_c_correct']]);
       pairs.push([this.question['answer_d'], this.question['answer_d_correct']]);
+      pairs.push([this.question['answer_e'], this.question['answer_e_correct']]);
       shuffleArray(pairs);
       this.question['answer_a'] = pairs[0][0];
       this.question['answer_a_correct'] = pairs[0][1];
@@ -146,17 +161,22 @@ export default {
       this.question['answer_c_correct'] = pairs[2][1];
       this.question['answer_d'] = pairs[3][0];
       this.question['answer_d_correct'] = pairs[3][1];
+      this.question['answer_e'] = pairs[3][0];
+      this.question['answer_e_correct'] = pairs[3][1];
     },
     check() {
       this.answer_a_correct = this.answer_a_selected === this.question['answer_a_correct'];
       this.answer_b_correct = this.answer_b_selected === this.question['answer_b_correct'];
       this.answer_c_correct = this.answer_c_selected === this.question['answer_c_correct'];
       this.answer_d_correct = this.answer_d_selected === this.question['answer_d_correct'];
+      this.answer_e_correct = this.answer_e_selected === this.question['answer_e_correct'];
       this.checking = true;
       if (this.answer_a_correct &&
         this.answer_b_correct &&
         this.answer_c_correct &&
-        this.answer_d_correct) if (!this.counted) this.answered_correctly++;
+        this.answer_d_correct &&
+        this.answer_e_correct
+      ) if (!this.counted) this.answered_correctly++;
       if (!this.counted) this.answered++;
       this.counted = true;
     }
