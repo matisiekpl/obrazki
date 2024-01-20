@@ -142,7 +142,7 @@ export default {
       this.checking = false;
       if (this.i > this.questions.length - 1) {
         if (this.answered_correctly < 50) {
-          alert('Ojoj! Chyba będzie spotkanie z Rudą...');
+          alert('Ojoj! Mareczek nie będzie zadowolony...');
         } else {
           alert('Czas na piwo!');
         }

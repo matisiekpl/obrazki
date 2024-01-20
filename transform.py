@@ -1,11 +1,11 @@
 import csv
 import json
 
-csvfile = open('questions.csv', encoding='utf-8')
+csvfile = open('out.csv', encoding='utf-8')
 
 rows = []
-reader = csv.reader(csvfile, delimiter=',', quotechar='"')
-next(reader)
+reader = csv.reader(csvfile, delimiter=';', quotechar='"')
+# next(reader)
 for row in reader:
     correctness = row[6].lower()
     rows.append({
