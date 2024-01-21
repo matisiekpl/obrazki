@@ -1,24 +1,11 @@
-# quizzer
+# Obrazki
 
-## Project setup
-```
-yarn install
-```
+> Quiz, który pomaga przygotować się do kolokwium z POC
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+https://obrazki.netlify.app/
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Poprawki
 
-### Lints and fixes files
-```
-yarn lint
-```
+Poprawki można zgłaszać za pomocą pull requestów do pliku https://github.com/matisiekpl/obrazki/blob/master/src/assets/questions.json
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Pull request musi zawierać informacje dlaczego uważamy, że dana odpowiedź jest słuszna. Do scalenia, wymagany jest komentarz dwóch innych osób.
