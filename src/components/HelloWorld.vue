@@ -62,7 +62,7 @@
 
     </div>
 
-    <h1 style="color: green"
+    <h1 style="color: lightgreen"
       v-if="answer_a_correct && answer_b_correct && answer_c_correct && answer_d_correct && answer_e_correct">
       Gratulacje</h1>
 
@@ -191,7 +191,7 @@ input[type=checkbox] {
 }
 
 .green {
-  color: green;
+  color: lightgreen;
 }
 
 .red {

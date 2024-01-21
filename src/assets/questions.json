@@ -1,6 +1,6 @@
 [
     {
-        "question": "1.Czy filtracja dolnoprzepustowa pozwala usunąć zakłócenia typu impulsowego?",
+        "question": "Czy filtracja dolnoprzepustowa pozwala usunąć zakłócenia typu impulsowego?",
         "answer_a": "nie",
         "answer_b": "tak",
         "answer_c": "tak, ale tylko znaczne zakłócenia impulsowe",
@@ -13,7 +13,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "2. Splot obrazu z maską filtru w dziedzinie przestrzeni reprezentowany jest w dziedzinieczęstotliwości jako:",
+        "question": "Splot obrazu z maską filtru w dziedzinie przestrzeni reprezentowany jest w dziedzinie częstotliwości jako:",
         "answer_a": "iloczyn F-obrazu i F-obrazu filtru",
         "answer_b": "sumę F-obrazu i F-obrazu filtru",
         "answer_c": "żadna z pozostałych",
@@ -26,7 +26,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "3.Operacja otwarcia (zaznacz zdania prawdziwe):",
+        "question": "Operacja otwarcia (zaznacz zdania prawdziwe):",
         "answer_a": "nie zmienia w istotny sposób pola powierzchni dużych figur (dla obrazów binarnych)",
         "answer_b": "usuwa z obrazu niewielkie obiekty typu wypustki",
         "answer_c": "to kolejne wykonanie na obrazie najpierw dylatacji, a następnie erozji",
@@ -39,7 +39,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "4.Która z wymienionych z przestrzeni barw (reprezentacja kolorów) stosowana jest wstandardzie JPEG:",
+        "question": "Która z wymienionych z przestrzeni barw (reprezentacja kolorów) stosowana jest w standardzie JPEG:",
         "answer_a": "CMY",
         "answer_b": "HSV",
         "answer_c": "YUV",
@@ -52,7 +52,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "5.Dla segmentacji przez podział i łączenie:siebie różnych podobszarów o zbliżonych właściwościach",
+        "question": "Dla segmentacji przez podział i łączenie siebie różnych pod obszarów o zbliżonych właściwościach:",
         "answer_a": "w pierwszym kroku obraz dzielony jest na fragmenty o rozmiarze 8 x 8",
         "answer_b": "w pierwszym kroku obraz dzielony jest na 4 części, jeśli nie jest spełniony predykat Q",
         "answer_c": "w rezultacie algorytmu mogą powstać niepołączone obszary o jednakowych właściwościach",
@@ -65,7 +65,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "6.Miejsce o największej wrażliwości na światło w siatkówce to:",
+        "question": "Miejsce o największej wrażliwości na światło w siatkówce to:",
         "answer_a": "plamka żółta",
         "answer_b": "zakończenie nerwu wzrokowego",
         "answer_c": "ciało szkliste",
@@ -78,7 +78,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "7.Dylatację dla obrazów w odcieniach szarości możemy opisać jako filtr(y):",
+        "question": "Dylatację dla obrazów w odcieniach szarości możemy opisać jako filtr(y):",
         "answer_a": "minimalny",
         "answer_b": "maksymalny",
         "answer_c": "górnoprzepustowy",
@@ -91,11 +91,11 @@
         "answer_e_correct": false
     },
     {
-        "question": "8.Zaznacz poprawne stwierdzenia.",
-        "answer_a": "unktowi w przestrzeni kartezjańskiej odpowiada krzywa sinusoidalna w przestrzeni Hougha (rho,theta)",
-        "answer_b": "punktowi w przestrzeni kartezjańskiej odpowiada prosta w przestrzeni Hougha (rho,theta)",
-        "answer_c": "prostej w przestrzeni kartezjańskiej odpowiada punkt w przestrzeni Hougha (rho,theta)",
-        "answer_d": "prostej w przestrzeni kartezjańskiej odpowiada krzywa sinusoidalna w przestrzeni Hougha (rho,theta)",
+        "question": "Zaznacz poprawne stwierdzenia.",
+        "answer_a": "punktowi w przestrzeni kartezjańskiej odpowiada krzywa sinusoidalna w przestrzeni Hougha (rho, theta)",
+        "answer_b": "punktowi w przestrzeni kartezjańskiej odpowiada prosta w przestrzeni Hougha (rho, theta)",
+        "answer_c": "prostej w przestrzeni kartezjańskiej odpowiada punkt w przestrzeni Hougha (rho, theta)",
+        "answer_d": "prostej w przestrzeni kartezjańskiej odpowiada krzywa sinusoidalna w przestrzeni Hougha (rho, theta)",
         "answer_e": "",
         "answer_a_correct": true,
         "answer_b_correct": false,
@@ -104,7 +104,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "9.Do układ optycznego oka można zaliczyć:",
+        "question": "Do układu optycznego oka można zaliczyć:",
         "answer_a": "soczewkę",
         "answer_b": "siatkówkę",
         "answer_c": "rogówkę",
@@ -117,7 +117,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "10.Czy można zdefiniować pojęcie filtracji medianowej dla obrazów kolorowych?",
+        "question": "Czy można zdefiniować pojęcie filtracji medianowej dla obrazów kolorowych?",
         "answer_a": "nie, mediana jest operacją tylko dla obrazów w skali szarości",
         "answer_b": "tak, trzeba tylko odpowiednio zdefiniować medianę i miarę odległości między pikselami (w sensie koloru)",
         "answer_c": "tak, ale tylko dla obrazów w przestrzeni HSV",
@@ -130,7 +130,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "11.Zaznacz cechy sztucznego przetwarzania obrazu przewyższające ludzki zmysł wzroku:",
+        "question": "Zaznacz cechy sztucznego przetwarzania obrazu przewyższające ludzki zmysł wzroku:",
         "answer_a": "szybsze rozpoznawanie obrazów w czasie rzeczywistym",
         "answer_b": "szybka analiza złożonych obrazów",
         "answer_c": "szybszy czas reakcji",
@@ -143,7 +143,7 @@
         "answer_e_correct": true
     },
     {
-        "question": "12.Dany jest obraz lekko nieostry. Jakie podejście powinno umożliwić poprawienie jegojakości?",
+        "question": "Dany jest obraz lekko nieostry. Jakie podejście powinno umożliwić poprawienie jego jakości?",
         "answer_a": "dodanie/odjęcie od obrazu rezultatu filtracji medianowej",
         "answer_b": "dodanie/odjęcie od obrazu rezultatu filtracji maksymalnej",
         "answer_c": "dodanie/odjęcie od obrazu rezultatu filtracji dolnoprzepustowej",
@@ -156,7 +156,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "13.Zaznacz poprawne stwierdzenie (stwierdzenia).",
+        "question": "Zaznacz poprawne stwierdzenie (stwierdzenia):",
         "answer_a": "ścienianie to grupa przekształceń morfologicznych",
         "answer_b": "ścienianie może być wywoływane wielokrotnie dla tego samego obrazu",
         "answer_c": "ścienianie można wykonać dla obrazów monochromatycznych",
@@ -169,7 +169,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "14.Dla algorytmu detekcji krawędzi Laplacian of Gaussian (LoG) (zaznacz zdaniaprawdziwe):",
+        "question": "Dla algorytmu detekcji krawędzi Laplacian of Gaussian (LoG) (zaznacz zdania prawdziwe):",
         "answer_a": "detekcja krawędzi polega na znajdywaniu miejsc przejścia przez zero",
         "answer_b": "detekcja krawędzi polega na znajdywaniu maksimów lokalnych",
         "answer_c": "z przefiltrowanego filtrem Gaussa obrazu obliczana jest druga pochodna",
@@ -182,7 +182,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "15.Zaznacz sytuacje, które doprowadzą do konieczności zapamiętania informacji o konflikcie(cyfry oznaczają wstępne etykiety, wyróżniony jest aktualnie rozważany piksel):",
+        "question": "Zaznacz sytuacje, które doprowadzą do konieczności zapamiętania informacji o konflikcie(cyfry oznaczają wstępne etykiety, wyróżniony jest aktualnie rozważany piksel):",
         "answer_a": "0 | 0 | 3 - 2 | 2 | X",
         "answer_b": "2 | 0 | 3- 2 | 2 | X",
         "answer_c": "2 | 0 | 3 - 2 | 0 | X",
@@ -195,7 +195,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "16.Elementem światłoczułym w oku jest:",
+        "question": "Elementem światłoczułym w oku jest:",
         "answer_a": "źrenica",
         "answer_b": "tęczówka",
         "answer_c": "siatkówka",
@@ -208,7 +208,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "17.Do globalnych metod automatycznego wyznaczania progu binaryzacji można zaliczyć:",
+        "question": "Do globalnych metod automatycznego wyznaczania progu binaryzacji można zaliczyć:",
         "answer_a": "metodę Sauvoli",
         "answer_b": "algorytm Yen",
         "answer_c": "wyznaczanie progu na podstawie średniej jasności w otoczeniu",
@@ -221,7 +221,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "18.Które z podanych przekształceń nie są operacjami kontekstowymi?",
+        "question": "Które z podanych przekształceń nie są operacjami kontekstowymi?",
         "answer_a": "negacja",
         "answer_b": "filtr morfologiczny",
         "answer_c": "LUT",
@@ -234,8 +234,8 @@
         "answer_e_correct": false
     },
     {
-        "question": "19. Operacja zamknięcia (zaznacz zdania prawdziwe): A albo d, wydaje sie ze a",
-        "answer_a": "bada zgodność otoczenia analizowanych punktów z elementem strukturalnym(maską)",
+        "question": "Operacja zamknięcia (zaznacz zdania prawdziwe):",
+        "answer_a": "bada zgodność otoczenia analizowanych punktów z elementem strukturalnym (maską)",
         "answer_b": "nie zmienia w istotny sposób pola powierzchni dużych figur (dla obrazów binarnych)",
         "answer_c": "wypełnia wąskie wcięcia i zatoki",
         "answer_d": "to kolejne wykonanie na obrazie najpierw erozji, a następnie dylatacji",
@@ -247,7 +247,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "20.Zaznacz poprawne stwierdzenia dotyczące filtra NL-means (non-local means):",
+        "question": "Zaznacz poprawne stwierdzenia dotyczące filtra NL-means (non-local means):",
         "answer_a": "niska złożoność obliczeniowa i duża dokładność filtracji",
         "answer_b": "wysoka złożoność obliczeniowa i duża dokładność filtracji",
         "answer_c": "do poprawnego działania filtr NL-means wymaga obrazu referencyjnego (na przykład obraz przefiltrowany innym filtrem",
@@ -260,7 +260,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "21.Z wymienionych poniżej, wskaż przestrzenie barw, w których wyróżnia się osobnąskładową jasności obrazu:",
+        "question": "Z wymienionych poniżej, wskaż przestrzenie barw, w których wyróżnia się osobną składową jasności obrazu:",
         "answer_a": "CMY",
         "answer_b": "RGB",
         "answer_c": "CMYK",
@@ -273,7 +273,7 @@
         "answer_e_correct": true
     },
     {
-        "question": "22.W poznanym na zajęciach algorytmie indeksacji:",
+        "question": "W poznanym na zajęciach algorytmie indeksacji:",
         "answer_a": "po pierwszym przebiegu piksele należące do jednego obiektu mogą mieć różne etykiety",
         "answer_b": "analizowane jest otoczenie o rozmiarze 5x5",
         "answer_c": "po pierwszym przebiegu wszystkie obiekty muszą mieć poprawne etykiety",
@@ -286,7 +286,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "23.Modelem barw często stosowanym w urządzeniach drukujących jest:",
+        "question": "Modelem barw często stosowanym w urządzeniach drukujących jest:",
         "answer_a": "YCrCb",
         "answer_b": "HSV",
         "answer_c": "Lab",
@@ -299,7 +299,7 @@
         "answer_e_correct": true
     },
     {
-        "question": "24.Cechą charakterystyczną maski filtru górnoprzepustowego jest:",
+        "question": "Cechą charakterystyczną maski filtru górnoprzepustowego jest:",
         "answer_a": "suma współczynników < 0",
         "answer_b": "suma współczynników > 0",
         "answer_c": "suma współczynników = 0",
@@ -312,7 +312,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "25.Czy następujące zdanie jest poprawne? Konwolucja w dziedzinie przestrzennejodpowiada mnożeniu w dziedzinie częstotliwości.",
+        "question": "Czy następujące zdanie jest poprawne? Konwolucja w dziedzinie przestrzennej odpowiada mnożeniu w dziedzinie częstotliwości.",
         "answer_a": "nie",
         "answer_b": "tak, ale tylko wtedy, gdy wymiary rozdzielczości przestrzennej F-obrazu są potęgą liczby 2",
         "answer_c": "tak, ale tylko wtedy, gdy wymiary rozdzielczości przestrzennej obrazu są potęgą liczby 2",
@@ -325,7 +325,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "26.W którym kroku algorytmu wyrównania histogramu następuje rezygnacja z częściułamkowej:",
+        "question": "W którym kroku algorytmu wyrównania histogramu następuje rezygnacja z części ułamkowej:",
         "answer_a": "obliczenie histogramu skumulowanego",
         "answer_b": "przemnożenie przez maksymalną wartość poziomu jasności",
         "answer_c": "podzielenie przez wartość równą liczbie pikseli",
@@ -338,9 +338,9 @@
         "answer_e_correct": false
     },
     {
-        "question": "27.Histogram skumulowany to funkcja wyznaczona na podstawie histogramu w następującysposób: pierwszy element to liczba pikseli o odcieniu 0, a kolejne wartości to liczba pikseli oodcieniu k pomnożona przez numer odcienia:",
-        "answer_a": "Fałsz",
-        "answer_b": "Prawda",
+        "question": "Histogram skumulowany to funkcja wyznaczona na podstawie histogramu w następujący sposób: pierwszy element to liczba pikseli o odcieniu 0, a kolejne wartości to liczba pikseli oodcieniu k pomnożona przez numer odcienia:",
+        "answer_a": "FAŁSZ",
+        "answer_b": "PRAWDA",
         "answer_c": "",
         "answer_d": "",
         "answer_e": "",
@@ -351,7 +351,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "28. W jakich sytuacjach metoda najbliższego sąsiada daje lepsze efekty niż interpolacjadwuliniowa:",
+        "question": "W jakich sytuacjach metoda najbliższego sąsiada daje lepsze efekty niż interpolacja dwuliniowa:",
         "answer_a": "w przypadku niektórych naturalnych obrazów, z bogatą paletą odcieni szarości",
         "answer_b": "zawsze",
         "answer_c": "w przypadku niektórych sztucznych obrazów, z bardzo ograniczoną paletą odcieni szarości",
@@ -364,7 +364,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "29. Który z poniższych filtrów można zaadaptować do filtracji szumu niestacjonarnego wobrazie cyfrowym?",
+        "question": "Który z poniższych filtrów można zaadaptować do filtracji szumu niestacjonarnego w obrazie cyfrowym?",
         "answer_a": "filtracja splotowa",
         "answer_b": "filtracja bilateralna",
         "answer_c": "filtracja NL-means (non-local means)",
@@ -377,7 +377,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "30.Zaznacz poprawne stwierdzenia.",
+        "question": "Zaznacz poprawne stwierdzenia.",
         "answer_a": "punktowi w przestrzeni kartezjańskiej odpowiada punkt w przestrzeni Hougha (A, B)",
         "answer_b": "prostej w przestrzeni kartezjańskiej odpowiada pęk prostych w przestrzeni Hougha (A, B)",
         "answer_c": "prostej w przestrzeni kartezjańskiej odpowiada punkt w przestrzeni Hougha (A, B)",
@@ -390,7 +390,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "31.Czy w filtrze NL-means (non-local means) wartość punktu centralnego otoczenia jestbrana pod uwagę podczas filtracji?",
+        "question": "Czy w filtrze NL-means (non-local means) wartość punktu centralnego otoczenia jest brana pod uwagę podczas filtracji?",
         "answer_a": "nie",
         "answer_b": "tak",
         "answer_c": "",
@@ -403,7 +403,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "32. Czy transformata Hougha może wykryć prostą, która nie jest ciągła?",
+        "question": "Czy transformata Hougha może wykryć prostą, która nie jest ciągła?",
         "answer_a": "tak, zawsze",
         "answer_b": "zależnie od \"stopnia\" nieciągłości",
         "answer_c": "nie",
@@ -416,7 +416,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "33.Opis: \"niska czułość, widzenie przy dobrym oświetleniu, widzenie barwne\" odpowiada:",
+        "question": "Opis: \"niska czułość, widzenie przy dobrym oświetleniu, widzenie barwne\" odpowiada:",
         "answer_a": "czopkom",
         "answer_b": "pręcikom",
         "answer_c": "",
@@ -429,7 +429,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "34.Wybierz zdania prawdziwe na temat adaptacyjnej filtracji medianowej - takiej jak wzadaniu domowym do ćwiczenia \"Przetwarzanie wstępne\":",
+        "question": "Wybierz zdania prawdziwe na temat adaptacyjnej filtracji medianowej - takiej jak w zadaniu domowym do ćwiczenia \"Przetwarzanie wstępne\":",
         "answer_a": "adaptacyjność filtra polega na naprzemiennym stosowaniu filtracji medianowej i dolnoprzepustowej",
         "answer_b": "filtr adaptacyjny działa szybciej niż zwykła mediana (jest mniej złożony obliczeniowo)",
         "answer_c": "jednym z etapów działania jest określenie wartości min i max w oknie",
@@ -442,7 +442,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "35.Rezultatem indeksacji jest obraz:",
+        "question": "Rezultatem indeksacji jest obraz:",
         "answer_a": "binarny",
         "answer_b": "kolorowy (RGB)",
         "answer_c": "w skali szarości",
@@ -455,7 +455,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "36.Erozja morfologiczna powoduje:",
+        "question": "Erozja morfologiczna powoduje:",
         "answer_a": "rozrost figury",
         "answer_b": "zmniejszenie pola figury",
         "answer_c": "likwidacją niewielkich wypustek",
@@ -468,7 +468,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "37.Dla segmentacji przez rozrost zaznacz zdania prawdziwe:",
+        "question": "Dla segmentacji przez rozrost zaznacz zdania prawdziwe:",
         "answer_a": "metoda wymaga wyboru punktu startowego",
         "answer_b": "obliczenia są przerywane, w przypadku, gdy różnica w jasności (kolorze) pomiędzy bieżącym pikselem, a jednym z sąsiadów przekroczy ustalony próg",
         "answer_c": "metoda działa poprawnie tylko, gdy wykorzystuje się stos (a nie np. kolejkę)",
@@ -481,7 +481,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "38.Wyznaczono dwuwymiarową transformatę DCT całego obrazu. Gdzie będą znajdowałysię niskie częstotliwości w F obrazie?",
+        "question": "Wyznaczono dwuwymiarową transformatę DCT całego obrazu. Gdzie będą znajdowały się niskie częstotliwości w F obrazie?",
         "answer_a": "w prawym dolnym rogu F-obrazu",
         "answer_b": "w centrum F-obrazu",
         "answer_c": "na krawędziach F-obrazu",
@@ -494,9 +494,9 @@
         "answer_e_correct": true
     },
     {
-        "question": "39.Operacja wyrównywania histogramu w RGB (osobno dla każdej ze składowych) niepowoduje znaczącej zmiany kolorów w obrazie:",
-        "answer_a": "Fałsz",
-        "answer_b": "Prawda",
+        "question": "Operacja wyrównywania histogramu w RGB (osobno dla każdej ze składowych) nie powoduje znaczącej zmiany kolorów w obrazie:",
+        "answer_a": "FAŁSZ",
+        "answer_b": "PRAWDA",
         "answer_c": "",
         "answer_d": "",
         "answer_e": "",
@@ -507,7 +507,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "40. Filtracja dolnoprzepustowa pozwala głównie usunąć/zredukować?",
+        "question": "Filtracja dolnoprzepustowa pozwala głównie usunąć/zredukować:",
         "answer_a": "szum typu Gaussowskiego",
         "answer_b": "szum impulsowy",
         "answer_c": "",
@@ -520,7 +520,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "41. Dla obrazu czarno - białej szachownicy wykonujemy przeskalowanie do dwukrotniewiększej rozdzielczości. Stosujemy dwie metody: ``najbliższego sąsiada'' oraz interpolację.Która da lepszy rezultat (wizualnie) ?",
+        "question": "Dla obrazu czarno - białej szachownicy wykonujemy przeskalowanie do dwukrotnie większej rozdzielczości. Stosujemy dwie metody: ``najbliższego sąsiada'' oraz interpolację.Która da lepszy rezultat (wizualnie) ?",
         "answer_a": "najbliższego sąsiada",
         "answer_b": "interpolacja",
         "answer_c": "obie dadzą zbliżony wynik",
@@ -533,7 +533,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "42. Które z poniższych operacji morfologicznych mogą zwiększać pole figury poddanejprzekształceniu:",
+        "question": "Które z poniższych operacji morfologicznych mogą zwiększać pole figury poddanej przekształceniu:",
         "answer_a": "ścieranie",
         "answer_b": "erozja",
         "answer_c": "otwarcie",
@@ -546,7 +546,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "43. Luminacja Y niesie informację o:",
+        "question": "Luminacja Y niesie informację o:",
         "answer_a": "poziomie jasności piksela",
         "answer_b": "obecności koloru czerwonego w pikselu",
         "answer_c": "obecności koloru niebieskiego w pikselu",
@@ -559,7 +559,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "44.Plamka ślepa to:",
+        "question": "Plamka ślepa to:",
         "answer_a": "miejsce o największym skupieniu czopków",
         "answer_b": "ujście nerwu wzorkowego",
         "answer_c": "",
@@ -572,7 +572,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "45. Prostej w przestrzeni kartezjańskiej odpowiada w przestrzeni Hougha (rho,theta):",
+        "question": "Prostej w przestrzeni kartezjańskiej odpowiada w przestrzeni Hougha (rho, theta):",
         "answer_a": "pęk prostych",
         "answer_b": "sinusoida",
         "answer_c": "prosta",
@@ -585,7 +585,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "46. Zaznacz cechy naturalnego przetwarzania obrazu przewyższające jego sztucznyodpowiednik:",
+        "question": "Zaznacz cechy naturalnego przetwarzania obrazu przewyższające jego sztuczny odpowiednik: ",
         "answer_a": "powtarzalność wyników",
         "answer_b": "szybka analiza złożonych obrazów",
         "answer_c": "większa skuteczność rozpoznawania obrazów dwuznacznych",
@@ -598,7 +598,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "47.Parametrami algorytmu Canny są:",
+        "question": "Parametrami algorytmu Canny są:",
         "answer_a": "tylko sigma - odchylenie standardowe rozkładu normalnego",
         "answer_b": "sigma - odchylenie standardowe rozkładu normalnego oraz próg binaryzacji T",
         "answer_c": "sigma - odchylenie standardowe rozkładu normalnego oraz dwa progi binaryzacji T1 i T2",
@@ -611,7 +611,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "48.Metoda lokalnej binaryzacji Sauvoli wykorzystuje jako parametry:",
+        "question": "Metoda lokalnej binaryzacji Sauvoli wykorzystuje jako parametry:",
         "answer_a": "wartość maksymalną w oknie",
         "answer_b": "odchylenie standardowe w oknie",
         "answer_c": "średnią jasność w oknie",
@@ -624,7 +624,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "49.Plamka żółta w oku to:",
+        "question": "Plamka żółta w oku to:",
         "answer_a": "ujście nerwu wzorkowego",
         "answer_b": "miejsce o największym skupieniu czopków",
         "answer_c": "",
@@ -637,7 +637,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "50.Wyrównanie histogramu niesie za sobą:",
+        "question": "Wyrównanie histogramu niesie za sobą:",
         "answer_a": "poprawę subiektywnego odbioru obrazu",
         "answer_b": "utratę informacji niesionej przez obraz",
         "answer_c": "zmniejszenie liczby rozróżnialnych (przez człowieka) poziomów szarości",
@@ -650,7 +650,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "51.Które z poniższych operacji morfologicznych mogą zmniejszać pole figury poddanejprzekształceniu:",
+        "question": "Które z poniższych operacji morfologicznych mogą zmniejszać pole figury poddanej przekształceniu:",
         "answer_a": "dylatacja",
         "answer_b": "zamknięcie",
         "answer_c": "ścieranie",
@@ -663,7 +663,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "52.Na jakim etapie (etapach) następuje kompresja danych w standardzie JPEG?",
+        "question": "Na jakim etapie (etapach) następuje kompresja danych w standardzie JPEG?",
         "answer_a": "kodowanie RLE",
         "answer_b": "kwantyzacja",
         "answer_c": "przekształcenie DCT",
@@ -676,7 +676,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "53.Czy wykorzystując Laplasjan można osiągnąć efekt wyostrzenia obrazu?",
+        "question": "Czy wykorzystując Laplasjan można osiągnąć efekt wyostrzenia obrazu?",
         "answer_a": "tak",
         "answer_b": "nie",
         "answer_c": "tak, ale jeśli wczesniej obraz zostanie przefiltrowany filtrem Gaussa",
@@ -689,7 +689,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "54. Opis: \"wysoka czułość, widzenie w nocy, reakcja na intensywność światła\" odpowiada:",
+        "question": "Opis: \"wysoka czułość, widzenie w nocy, reakcja na intensywność światła\" odpowiada:",
         "answer_a": "pręcikom",
         "answer_b": "czopkom",
         "answer_c": "",
@@ -702,7 +702,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "55.Kiedy jednopunktowe przekształcenie obrazu jest odwracalne:",
+        "question": "Kiedy jednopunktowe przekształcenie obrazu jest odwracalne:",
         "answer_a": "nigdy",
         "answer_b": "tylko jeśli funkcja przekształcająca jest malejąca",
         "answer_c": "jeśli funkcja przekształcająca jest ściśle monotoniczna",
@@ -715,7 +715,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "56. Element F w transformacji Fouriera odpowiada za:",
+        "question": "Element F w transformacji Fouriera odpowiada za:",
         "answer_a": "kąt nachylenia prostej",
         "answer_b": "składową stałą w obrazie",
         "answer_c": "wysokie częstotliwości na obrazie x",
@@ -728,7 +728,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "57. Dla obrazu rzeczywistego (np.\"lena\") wykonujemy przeskalowanie do dwukrotniewiększej rozdzielczości. Stosujemy dwie metody: ``najbliższego sąsiada'' oraz interpolację.Która da lepszy rezultat (wprowadza mniejszą liczbę artefaktów)?",
+        "question": "Dla obrazu rzeczywistego (np.\"lena\") wykonujemy przeskalowanie do dwukrotnie większej rozdzielczości. Stosujemy dwie metody: ``najbliższego sąsiada'' oraz interpolację.Która da lepszy rezultat (wprowadza mniejszą liczbę artefaktów)?",
         "answer_a": "interpolacja",
         "answer_b": "obie dadzą zbliżony wynik",
         "answer_c": "najbliższego sąsiada",
@@ -741,7 +741,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "58. Czy przyjmując rozmiar okna globalnego równy rozmiarowi okna lokalnego, filtrNL-means (non-local means) sprowadza się do filtra bilateralnego?",
+        "question": "Czy przyjmując rozmiar okna globalnego równy rozmiarowi okna lokalnego, filtr NL-means (non-local means) sprowadza się do filtra bilateralnego?",
         "answer_a": "tak",
         "answer_b": "nie",
         "answer_c": "",
@@ -754,7 +754,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "60. Wskaż poprawne zdania o algorytmach binaryzacji poznanych na zajęciach:",
+        "question": "Wskaż poprawne zdania o algorytmach binaryzacji poznanych na zajęciach:",
         "answer_a": "do segmentacji obrazów o niejednorodnym oświetleniu najlepiej nadaje się, któraś z globalnych metod",
         "answer_b": "w doborze progu binaryzacji największe znaczenie ma analiza histogramu",
         "answer_c": "w metodzie Sauvoli próg binaryzacji wyznaczany jest na podstawie otoczenia analizowanego piksela",
@@ -767,7 +767,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "61. Czy za pomocą odpowiedniej modyfikacji transformaty Hougha można wykryć okręgi naobrazie?",
+        "question": "Czy za pomocą odpowiedniej modyfikacji transformaty Hougha można wykryć okręgi na obrazie?",
         "answer_a": "tak",
         "answer_b": "nie",
         "answer_c": "",
@@ -780,7 +780,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "62. F-obraz (obraz po przekształceniu dyskretną transformatą Fouriera) jest to reprezentacjaw dziedzinie:",
+        "question": "F-obraz (obraz po przekształceniu dyskretną transformatą Fouriera) jest to reprezentacja w dziedzinie:",
         "answer_a": "przestrzeni",
         "answer_b": "czasu",
         "answer_c": "częstotliwości",
@@ -793,7 +793,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "63.Erozję dla obrazów w odcieniach szarości możemy opisać jako filtr(y):",
+        "question": "Erozję dla obrazów w odcieniach szarości możemy opisać jako filtr(y):",
         "answer_a": "minimalny",
         "answer_b": "górnoprzepustowy",
         "answer_c": "dolnoprzepustowy",
@@ -806,7 +806,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "64.Ile maksymalnie etykiet można nadać obrazowi, który zawiera N poziomów szarości?",
+        "question": "Ile maksymalnie etykiet można nadać obrazowi, który zawiera N poziomów szarości?",
         "answer_a": "N+1",
         "answer_b": "N",
         "answer_c": "jest to zależne od treści obrazu",
@@ -819,7 +819,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "65. Czy na podstawie składowej luminancji (Y) i dwóch składowych chrominancji (Cr,Cb)możliwe jest odtworzenie barw podstawowych RGB?",
+        "question": "Czy na podstawie składowej luminancji (Y) i dwóch składowych chrominancji (Cr, Cb) możliwe jest odtworzenie barw podstawowych RGB? ",
         "answer_a": "tak, ale tylko dla obrazów po korekcji gamma",
         "answer_b": "tak, ale tylko dla obrazów po wyrównywaniu histogramu",
         "answer_c": "nie",
@@ -832,7 +832,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "66. Zaznacz zdania prawdziwe:",
+        "question": "Zaznacz zdania prawdziwe:",
         "answer_a": "dla filtracji dolnoprzepustowej nowa wartość piksela może być wartością z obrazu wejściowego",
         "answer_b": "dla filtracji dolnoprzepustowej nowa wartość piksela zawsze jest wartością z obrazu wejściowego",
         "answer_c": "dla filtracji medianowej z oknem o nieparzystej liczbie elementów nowa wartość piksela zawsze jest wartością z obrazu wejściowego",
@@ -845,7 +845,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "67.Jak nazywa się miejsce połączenia siatkówki i nerwu wzrokowego:",
+        "question": "Jak nazywa się miejsce połączenia siatkówki i nerwu wzrokowego:",
         "answer_a": "plamka ślepa",
         "answer_b": "plamka żółta",
         "answer_c": "tęczówka",
@@ -858,7 +858,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "68.Czy za pomocą odpowiedniej modyfikacji transformaty Hougha można wykryć elipsy naobrazie?",
+        "question": "Czy za pomocą odpowiedniej modyfikacji transformaty Hougha można wykryć elipsy na obrazie?",
         "answer_a": "nie",
         "answer_b": "tak",
         "answer_c": "",
@@ -871,9 +871,9 @@
         "answer_e_correct": false
     },
     {
-        "question": "69.Czy za pomocą operacji LUT można wyznaczyć negatyw z obrazu?",
-        "answer_a": "fałsz",
-        "answer_b": "prawda",
+        "question": "Czy za pomocą operacji LUT można wyznaczyć negatyw z obrazu?",
+        "answer_a": "FAŁSZ",
+        "answer_b": "PRAWDA",
         "answer_c": "",
         "answer_d": "",
         "answer_e": "",
@@ -884,7 +884,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "70.W metodzie BBHE (Bi-Histogram Equalization) histogram dzieli się na podstawie:",
+        "question": "W metodzie BBHE (Bi-Histogram Equalization) histogram dzieli się na podstawie:",
         "answer_a": "średniej jasności w obrazie",
         "answer_b": "liczby pikseli w podobrazach",
         "answer_c": "dominanty jasności w obrazie",
@@ -897,7 +897,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "71.Filtr kombinowany:",
+        "question": "Filtr kombinowany:",
         "answer_a": "do łączenia wyników filtracji stosuje się formułę Euklidesową lub modułową",
         "answer_b": "służy np. do wykrywania krawędzi",
         "answer_c": "to złożenie dwóch lub więcej filtrów prostych (np. Sobel, Prewitt)",
@@ -910,7 +910,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "72. Wykonanie operacji DCT na obrazie (fragmencie obrazu) w dwóch etapach (jako dwiejednowymiarowe transformaty po wierszach i kolumnach) skutkuje:",
+        "question": "Wykonanie operacji DCT na obrazie (fragmencie obrazu) w dwóch etapach (jako dwie jednowymiarowe transformaty po wierszach i kolumnach) skutkuje:",
         "answer_a": "zwiększeniem obciążenia procesora",
         "answer_b": "zmniejszeniem złożoności obliczeniowej",
         "answer_c": "uzyskaniem dokładniejszych wyników",
@@ -923,7 +923,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "73. Który z podanych akronimów nie jest oznaczeniem przestrzeni kolorów:",
+        "question": "Który z podanych akronimów nie jest oznaczeniem przestrzeni kolorów:",
         "answer_a": "RGB",
         "answer_b": "CMYK",
         "answer_c": "YYU",
@@ -936,7 +936,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "74.Dwukrotną redukcję rozdzielczości obrazu można osiągnąć stosując kolejno:",
+        "question": "Dwukrotną redukcję rozdzielczości obrazu można osiągnąć stosując kolejno:",
         "answer_a": "podpróbkowanie i filtrację dolnoprzepustową",
         "answer_b": "filtrację dolnoprzepustową i nadpróbkowanie",
         "answer_c": "filtrację dolnoprzepustową i podpróbkowanie",
@@ -949,7 +949,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "75.W metodzie DSIHE (Dualistic Sub-Image Histogram Equalization) histogram dzieli się napodstawie:",
+        "question": "W metodzie DSIHE (Dualistic Sub-Image Histogram Equalization) histogram dzieli się na podstawie:",
         "answer_a": "liczby pikseli w podobrazach",
         "answer_b": "dominanty jasności w obrazie",
         "answer_c": "średniej jasności w przetwarzanym oknie",
@@ -962,7 +962,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "76.Czy konwersja z RGB do odcieni szarości jest operacją odwracalną?",
+        "question": "Czy konwersja z RGB do odcieni szarości jest operacją odwracalną?",
         "answer_a": "nie",
         "answer_b": "tak, ale tylko dla obrazów po korekcji gamma",
         "answer_c": "tak, ale tylko dla obrazów po wyrównywaniu histogramu",
@@ -975,7 +975,7 @@
         "answer_e_correct": false
     },
     {
-        "question": "77. Które z poniższych zakłóceń może być lepiej usunięte przez medianę niż przez filtruśredniający:",
+        "question": "Które z poniższych zakłóceń może być lepiej usunięte przez medianę niż przez filtru średniający:",
         "answer_a": "nierównomierne oświetlenie sceny",
         "answer_b": "usunięcie szumu o rozkładzie normalnym (Gaussa)",
         "answer_c": "niewykorzystanie wszystkich poziomów jasności",
