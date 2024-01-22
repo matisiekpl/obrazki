@@ -1,7 +1,7 @@
 import csv
 import json
 
-csvfile = open('out3.csv', encoding='utf-8')
+csvfile = open('out2.csv', encoding='utf-8')
 
 rows = []
 reader = csv.reader(csvfile, delimiter=';', quotechar='"')
